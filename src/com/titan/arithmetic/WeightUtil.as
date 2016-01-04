@@ -56,6 +56,11 @@ package com.titan.arithmetic
 			return resultList;
 		}
 		
+		public static function random(weightList:Vector.<Weight>):Weight
+		{
+			return WeightUtil.matchWeight(Math.random(), weightList);
+		}
+		
 		
 	}
 
